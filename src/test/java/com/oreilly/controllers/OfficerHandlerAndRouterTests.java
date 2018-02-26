@@ -15,8 +15,8 @@ import reactor.core.publisher.Mono;
 
 import java.util.Collections;
 
-//@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-//@RunWith(SpringRunner.class)
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@RunWith(SpringRunner.class)
 public class OfficerHandlerAndRouterTests {
 
     @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
