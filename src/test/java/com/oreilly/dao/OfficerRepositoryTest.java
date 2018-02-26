@@ -23,9 +23,9 @@ import java.util.stream.Collectors;
 import static org.hamcrest.Matchers.containsInAnyOrder;
 import static org.junit.Assert.*;
 
-//@SuppressWarnings("Duplicates")
-//@RunWith(SpringRunner.class)
-//@SpringBootTest
+@SuppressWarnings("Duplicates")
+@RunWith(SpringRunner.class)
+@SpringBootTest
 public class OfficerRepositoryTest {
     @Autowired
     private OfficerRepository dao;
